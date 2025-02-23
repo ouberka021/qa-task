@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
-    "test:specific": "npx playwright test --grep index.spec.js",
+    "tests": "npx playwright test",
+    "tests:specific": "npx playwright test --grep index.spec.js",
     "report": "npx playwright show-report"
   },
   "keywords": [],
